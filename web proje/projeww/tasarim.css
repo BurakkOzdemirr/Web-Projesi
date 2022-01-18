@@ -1,0 +1,241 @@
+﻿.body {
+    background-color:#D2D7D3;
+}
+.header{
+    background:#ffffff;
+    position:relative;
+    left:2px;
+    top: 1px;
+    width: 99%;
+    height: 742px;
+}
+
+.footer{
+    background:#000000;
+    color:#1a00ff;
+       
+}
+.resim{
+    width:593px;
+}
+
+.kutu{
+    margin-bottom:30px;
+}
+.row{
+    margin-top:10px;
+}
+.giris{
+    text-align:center;
+    font-size:20px;
+}
+@media (min-width: 768px) {
+  .kutu {
+      height:370px;
+  }
+}
+/*giriş ekranı*/
+
+.sol{
+    position:relative;
+    top:-50px;
+    height:379px;
+    left:10px;
+    width: 178px;
+}
+.sol h5{
+    color:red;
+    text-align:center;
+}
+.resim{
+    height:226px;
+    width:890px;
+}
+/* admin paneli */
+.adminsolüst{
+    background-color:#bbbbbb;
+    width:250px;
+    height:100px;
+    text-align:center;
+    border:0px;
+}
+.adminsolüst img {
+   position:relative;
+    left:5px;
+    top:9px;
+    height: 71px;
+    width: 82px;
+}
+.adminsolüst a{
+    position:relative;
+
+    font-size:30px;
+    font:bold;
+    color:black;
+    padding:15px;
+    padding-top:15px;
+    
+}
+.adminsolalt {
+    background-color:#d0d0d0;
+    width:250px;
+    height:600px;
+    text-align:center;
+    border:0px;
+}
+.adminsolalt a{
+    color:black;
+    font:bold;
+    font-size:20px;
+}
+.adminsolalt ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    position:relative;
+    top:70px;
+    left: 0px;
+    height: 368px;
+    width: 257px;
+}
+.adminsolalt li{
+    border:1px;
+    margin:20px;
+    padding:10px;
+    font-size:20px;
+    font:bold;
+    background-color:lightblue;
+}
+.enüst {
+    position:relative;
+    top:-700px;
+    left:250px;
+    background-color:#d0d0d0;
+    height:100px;
+    width:1100px;
+   
+    }
+.enüst a{
+    color:red;
+    float:right;
+    font:bold;
+    position:relative;
+    right:70px;
+    top:10px;
+}
+.icerik{
+    position:absolute;
+   /* top:-700px;
+    left:250px;
+    width:1100px;
+    height:600px;
+    bottom: 433px;*/
+   width:1100px;
+    height:600px;
+    top:100px;
+    left:250px;
+    bottom: 138px;
+}
+.icerik a{
+    color:black;
+    font:bold;
+    text-align:center;
+}
+.icerik h3{
+    text-align:center;
+    font:bold;
+    font-size:30px;
+    color:red;
+    font-size:25px;
+}
+.icerik li {
+   border-style: none;
+    border-color: inherit;
+    border-width: 1px;
+    display:inline-block;
+    margin:5px;
+    padding:10px;
+    font-size:15px;
+    background-color:#d0d0d0;
+    width: 146px;
+    position:relative;
+    left:26px;
+   
+}
+.icerik li a {
+ border-bottom: none;
+ }
+.admin {
+    text-align:center;
+}
+.admin h3{
+    text-align:center;
+}
+.sayac{
+    position:absolute;
+    top:350px;
+    width:227px;
+    left:10px;
+    height:200px;
+    
+}
+.sayac h4{
+    color:red;
+    background-color:lightblue;
+}
+.anasayfasol{
+    width:180px;
+    height:600px;
+    text-align:center;
+    border:0px;
+}
+.anasayfasol a{
+    color:black;
+    font:bold;
+    font-size:20px;
+}
+.anasayfasol ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    position:relative;
+    top:70px;
+    left: 0px;
+    height: 368px;
+}
+.anasayfasol li{
+    border:1px;
+    margin:20px;
+    padding:10px;
+    font-size:20px;
+    font:bold;
+    background-color:lightblue;
+}
+
+.geziekle {
+    text-align:center;
+    font-size:15px;
+    color:black;
+    position:relative;
+    
+    
+}
+.goruntule{
+    text-align:center;
+    font:bold;
+    font-size:20px;
+    color:black;
+    background-color:lightblue;
+    width:100%;
+}  
+.ayar{
+  text-align:center;
+  color:black;
+  font:bold;
+  font-size:20px;
+ 
+}
+
+
+
+    

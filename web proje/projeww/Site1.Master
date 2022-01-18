@@ -1,0 +1,174 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="projeww.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>GEZGİN</title>
+    <link href="resimgalerisi/sss/sss.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="resimgalerisi/sss/sss.min.js"></script> 
+        <script>
+            jQuery(function ($) {
+                $('.slider').sss();
+            });
+        </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="tasarim.css" rel="stylesheet" />
+    <script type="text/javascript" src="../ckfinder/ckfinder.js"></script>
+    <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        
+            .social-icons {
+text-align: center;
+ }  
+.social-icons li {
+display:inline-block;
+list-style-type:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+ }
+.social-icons li a {
+border-bottom: none;
+ }
+.social-icons li img {
+width:50px;
+height:50px;
+margin-right:5px;
+            }
+.footer {
+ text-align: center;
+                
+  }  
+ .footer li {
+display:inline-block;
+list-style-type:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+}
+.footer li a {
+ border-bottom:none; 
+ width:70px;
+height:70px;
+margin-right: 20px;
+}
+        .auto-style1 {
+            width: 100%;
+            height: 753px;
+        }
+        .auto-style2 {
+            height: 71px;
+            width: 197px;
+        }
+        .auto-style7 {
+            width: 197px;
+            height: 378px;
+        }
+        .auto-style10 {
+            width: 594px;
+        }
+        .auto-style11 {
+            height: 71px;
+            width: 191px;
+        }
+        .auto-style12 {
+            width: 191px;
+        }
+        .auto-style13 {
+            width: 197px;
+            height: 289px;
+        }
+        .auto-style14 {
+            height: 71px;
+            width: 594px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+         <table cellpadding="0" cellspacing="0" class="auto-style1" style="position:relative;top:-15px; left: 0px;">
+            <tr>
+                <td class="auto-style11" style="background-color: #0066CC; background-image: url('/giris/resim/images.jpg'); ">
+                    <a style="font-size:30px;color:black" href="giris.aspx">
+                        <img alt="icon" class="auto-style22" src="giris/resim/icon/icon.png" style="padding-left:10px; height: 51px; width: 53px;"/>
+                       <b> Gezgin</a></b> <br />
+                </td>
+               <td  style="background-image: url('/giris/resim/images.jpg');" class="auto-style14">
+                   <asp:ContentPlaceHolder ID="üst" runat="server">
+                           
+                   </asp:ContentPlaceHolder>
+                    </td>
+              
+                <td class="auto-style2" style="background-color: #0066CC; background-image: url('/giris/resim/images.jpg');">
+                    <asp:ContentPlaceHolder id="sagüst" runat="server">
+        
+                         </asp:ContentPlaceHolder>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style12" rowspan="2" style="background-color: #333333">
+                     <asp:ContentPlaceHolder id="sol" runat="server">
+        
+                         </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style10" rowspan="2">
+                    <asp:ContentPlaceHolder id="ortaüst" runat="server">
+        
+                         </asp:ContentPlaceHolder>
+                    
+                    <asp:ContentPlaceHolder id="ortaalt" runat="server" >
+        
+                         </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style13" style="background-color:red; vertical-align: top;">
+                    <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" Width="150px" Height="250px" />
+
+                    <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/reklam.xml"></asp:XmlDataSource>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #333333" class="auto-style7">
+                    <asp:ContentPlaceHolder id="sagalt" runat="server">
+        
+                         </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+   
+        
+  
+    </form>
+        
+    <div class="footer">
+        <div class="container">
+            <footer style="text-align:center; height:202px; background-color: #000000; margin-top: 67px;">
+                         
+                        <ul  class="footer" style="padding-top:5px;  cursor:pointer; height: 15px;" >
+                           <%Response.Write(basliktut);  %>   
+                         </ul> <br  />
+                        <a href="giris.aspx" style="color:#1a00ff"><img alt="icon"  src="giris/resim/icon/icon.png" /></a>
+                         <ul class="social-icons">
+                        <br />
+                            <li><a href="http://www.facebook.com"><img src='giris/resim/icon/Facebook.png' style="height: 32px; width: 34px" /></a></li>
+                            <li> <a href="http://www.twitter.com"><img src='giris/resim/icon/Twitter.png' style="height: 32px; width: 34px" /></a></li>
+                            <li><a href="http://www.instagram.com"><img src='giris/resim/icon/Instagram.png' style="height: 32px; width: 34px"/></a></li> 
+                             <li><a href="http://www.tumblr.com"><img src='giris/resim/icon/Tumblr.png' style="height: 32px; width: 34px" /></a></li>
+                             
+                         </ul>
+                           <a style="color:white">Gezgin © 2020 Tüm Hakları Saklıdır </a>
+                         
+                       </footer>
+        </div>
+    </div>
+</body>
+
+</html>

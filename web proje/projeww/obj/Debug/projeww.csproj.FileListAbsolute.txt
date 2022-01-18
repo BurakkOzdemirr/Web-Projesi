@@ -1,0 +1,6 @@
+C:\Users\brkoz\Desktop\projeww\projeww\bin\projeww.dll.config
+C:\Users\brkoz\Desktop\projeww\projeww\bin\projeww.dll
+C:\Users\brkoz\Desktop\projeww\projeww\bin\projeww.pdb
+C:\Users\brkoz\Desktop\projeww\projeww\obj\Debug\projeww.csprojResolveAssemblyReference.cache
+C:\Users\brkoz\Desktop\projeww\projeww\obj\Debug\projeww.dll
+C:\Users\brkoz\Desktop\projeww\projeww\obj\Debug\projeww.pdb
